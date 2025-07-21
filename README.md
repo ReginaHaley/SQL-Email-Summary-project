@@ -8,7 +8,7 @@ This project uses basic SQL to analyze customer data and summarize how many cust
 
 - `customer_data.csv` – Sample customer dataset with email and domain info  
 - `customer_summary.sql` – SQL queries to explore and summarize the data  
-- `domain_chart.xlsx` – Excel file with PivotTable and bar chart of domain usage
+- `customer_data_chart.xlsx` – Excel file with PivotTable and bar chart of domain usage
 - `emailsummaryproject.db` – Database in DB browser, table made with .csv file attached
 - `images/` – Optional screenshots of the Excel chart
   
@@ -53,7 +53,7 @@ SELECT COUNT(*) AS total_customers FROM customer_data;
 
 ## 📊 Excel Visualization
 
-The final SQL output was exported to Excel to create a simple bar chart showing how many customers use each email provider.
+The final SQL query count domain output was exported to Excel to create a simple bar chart and pivot table showing how many customers use each email provider. Screebshots of SQL queries.
 
 ---
 
