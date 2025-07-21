@@ -1,0 +1,7 @@
+domain,total_customers,,,,
+gmail.com,3,,,Row Labels,Sum of total_customers2
+yahoo.com,2,,,gmail.com,3
+outlook.com,1,,,outlook.com,1
+,,,,yahoo.com,2
+,,,,(blank),
+,,,,Grand Total,6
