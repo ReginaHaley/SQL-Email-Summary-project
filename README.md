@@ -19,14 +19,14 @@ This project uses basic SQL to analyze customer data and summarize how many cust
 
 ```sql
 -- View all customers
-SELECT * FROM customers;
+SELECT * FROM customer_data;
 
 -- Filter customers by city
-SELECT * FROM customers WHERE city = 'Houston';
+SELECT * FROM customer_data WHERE city = 'Houston';
 
 -- Count customers by email domain
 SELECT domain, COUNT(*) as total_customers
-FROM customers
+FROM customer_data
 GROUP BY domain
 ORDER BY total_customers DESC;
 
@@ -46,7 +46,6 @@ ORDER BY name ASC;
 
 --Getting a count of total customers
 SELECT COUNT(*) AS total_customers FROM customer_data;
-
 
 ```
 
